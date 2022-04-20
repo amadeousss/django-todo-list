@@ -1,0 +1,114 @@
+body {
+    background-color: #FAFAFA;
+    font-family: "Inter";
+    padding-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+}
+
+a, p, label {
+    color: #4b5156
+}
+
+.container {
+    max-width: 550px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    background: linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
+}
+
+.header-bar a {
+    color: rgb(247, 247, 247);
+}
+
+.task-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.delete-link, .add-link {
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    transition: 0.2s;
+}
+
+.delete-link {
+    background-color: #f79799;
+}
+
+.add-link {
+    background-color: #cfcfcf;
+}
+
+.delete-link:hover {
+    background-color: #cc5456;
+}
+
+.add-link:hover {
+    background-color: #8f8f8f;
+}
+
+.search-add-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.search-add-wrapper form {
+    display: flex;
+    column-gap: 1em;
+}
+
+input[type=text],
+input[type=password],
+textarea {
+    border: none;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    padding: 5px;
+    width: 90%;
+    resize: none;
+    font-family: "Inter", serif;
+}
+
+.button {
+    border: none;
+    background-color: rgba(0, 0, 255, 0.7);
+    color: white;
+    font-family: "Inter", serif;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card-body {
+    padding: 20px 20px 20px 20px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: inline-block;
+}
