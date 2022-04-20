@@ -7,6 +7,7 @@ name = "pypi"
 environs = {extras = ["django"], version = "*"}
 whitenoise = "*"
 gunicorn = "*"
+django = "*"
 
 [dev-packages]
 
