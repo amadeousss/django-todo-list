@@ -112,3 +112,16 @@ label {
     margin-bottom: 10px;
     display: inline-block;
 }
+
+.errorlist {
+    margin: 0;
+    padding: 0;
+    width: calc(90% + 10px);
+    list-style-position: inside;
+}
+
+.errorlist li {
+    color: #cc5456;
+    font-size: 0.8em;
+    padding: 5px 10px;
+}
